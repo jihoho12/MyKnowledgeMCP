@@ -1,5 +1,5 @@
 # Knowledge MCP
-
+Air 프레임워크(https://docs.airmcp.dev/) 로 만든
 배운 CS 지식을 **그래프 구조**로 자동 정리·병합하는 MCP 서버입니다.
 
 Claude Desktop에서 자연어로 지식을 말하면, 핵심 개념(Entity)과 관계(Relation)를 추출해서 SQLite 기반 지식 그래프에 저장합니다. 같은 개념이 다시 나오면 기존 노드에 병합합니다.
