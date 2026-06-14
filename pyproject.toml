@@ -1,0 +1,15 @@
+[project]
+name = "knowledge-mcp"
+version = "0.1.0"
+description = "Knowledge Ingestion MCP - 지식 그래프 저장소"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/knowledge_mcp"]

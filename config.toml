@@ -1,0 +1,17 @@
+[database]
+path = "data/knowledge.db"
+
+[knowledge]
+categories = [
+    "general",
+    "network",
+    "os",
+    "database",
+    "web",
+    "security",
+    "language",
+    "algorithm",
+    "architecture",
+    "devops",
+]
+summary_consolidation_threshold = 500
